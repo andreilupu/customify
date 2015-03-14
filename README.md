@@ -122,20 +122,21 @@ function this_setting_can_call_this_function( $value, $selector, $property, $uni
 
 ```
 
-Fields  | [Live Preview Support!](#live_preview_support)
-------------- | -------------
-Text  | No
-Textarea | No
-Color | Yes
-Range | Yes
-Typography | No
-Select | No
-Radio | No
-Checkbox | No
-Upload | No
-Image | No
-Date | No
-Pages select | No
+Fields  | [Live Preview Support!](#live_preview_support) | Description
+------------- | ------------- | -------------
+Text  | No | A simple text input
+Textarea | No | A simple textarea input
+Color | Yes | A simple colorpicker
+Range | Yes | The default html5 range input
+Typography | No | This is an awesome font selector, it supports standart fonts and google fonts. You can also Group fonts or offer a list of recommanded fonts
+Select | No | The standard html select
+[Select2](https://select2.github.io/) | No | An awesome select 
+Radio | No |
+Checkbox | No | 
+Upload | No | This field allows you to upload a file which you can use it later in front-end
+Image | No | This is like the upload field but it accepts only images 
+Date | No | 
+Pages select | No | The standard WordPress Page Select
 
 ### Live Preview Support<a name="live_preview_support"></a>
 
